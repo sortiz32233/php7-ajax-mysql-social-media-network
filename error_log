@@ -1,0 +1,479 @@
+[13-Mar-2020 07:51:10 America/Los_Angeles] PHP Warning:  require_once(PHPMailer/PHPMailer.php): failed to open stream: No such file or directory in /home1/anthorc3/public_html/connect/login.php on line 6
+[13-Mar-2020 07:51:10 America/Los_Angeles] PHP Fatal error:  require_once(): Failed opening required 'PHPMailer/PHPMailer.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/anthorc3/public_html/connect/login.php on line 6
+[13-Mar-2020 07:51:17 America/Los_Angeles] PHP Warning:  require_once(PHPMailer/PHPMailer.php): failed to open stream: No such file or directory in /home1/anthorc3/public_html/connect/login.php on line 6
+[13-Mar-2020 07:51:17 America/Los_Angeles] PHP Fatal error:  require_once(): Failed opening required 'PHPMailer/PHPMailer.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/anthorc3/public_html/connect/login.php on line 6
+[13-Mar-2020 07:51:29 America/Los_Angeles] PHP Warning:  require_once(PHPMailer/PHPMailer.php): failed to open stream: No such file or directory in /home1/anthorc3/public_html/connect/login.php on line 6
+[13-Mar-2020 07:51:29 America/Los_Angeles] PHP Fatal error:  require_once(): Failed opening required 'PHPMailer/PHPMailer.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/anthorc3/public_html/connect/login.php on line 6
+[13-Mar-2020 07:52:28 America/Los_Angeles] PHP Warning:  require_once(PHPMailer/PHPMailer.php): failed to open stream: No such file or directory in /home1/anthorc3/public_html/connect/login.php on line 6
+[13-Mar-2020 07:52:28 America/Los_Angeles] PHP Fatal error:  require_once(): Failed opening required 'PHPMailer/PHPMailer.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home1/anthorc3/public_html/connect/login.php on line 6
+[13-Mar-2020 10:30:40 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home1/anthorc3/public_html/connect/connect.php:2
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(2): PDO->__construct('mysql:host=loca...', 'anthorc3', 'Coolio647!')
+#1 /home1/anthorc3/public_html/connect/update_last_activity.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 2
+[13-Mar-2020 10:30:41 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home1/anthorc3/public_html/connect/connect.php:2
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(2): PDO->__construct('mysql:host=loca...', 'anthorc3', 'Coolio647!')
+#1 /home1/anthorc3/public_html/connect/fetch_all_notifications.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 2
+[13-Mar-2020 10:30:45 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home1/anthorc3/public_html/connect/connect.php:2
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(2): PDO->__construct('mysql:host=loca...', 'anthorc3', 'Coolio647!')
+#1 /home1/anthorc3/public_html/connect/fetch_user.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 2
+[13-Mar-2020 15:50:58 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_all_notifications.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:50:58 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_user_chat_history.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:50:58 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/update_last_activity.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:50:58 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_user.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:01 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/update_last_activity.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:01 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_all_notifications.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:01 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_user.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:03 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_all_notifications.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:03 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_user.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:03 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_user_chat_history.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:03 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/update_last_activity.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:05 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/update_last_activity.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:06 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_all_notifications.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:06 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_user.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:08 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_all_notifications.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:08 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/update_last_activity.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:08 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_user_chat_history.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:08 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_user.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:10 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/update_last_activity.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:10 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_all_notifications.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:11 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_user.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:13 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/update_last_activity.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:13 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_user.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:13 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_all_notifications.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:13 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_user_chat_history.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:15 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_user.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:15 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/update_last_activity.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:16 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_all_notifications.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:17 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/dashboard.php(2): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:18 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/update_last_activity.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:18 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_user.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:18 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_user_chat_history.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:18 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_all_notifications.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:20 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/update_last_activity.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:20 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_user.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:20 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_all_notifications.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:23 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_all_notifications.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:23 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_user.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:23 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_user_chat_history.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:23 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/update_last_activity.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:25 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/dashboard.php(2): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:26 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/update_last_activity.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:26 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_all_notifications.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:26 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_user.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:28 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_user_chat_history.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:28 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_user.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:28 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_all_notifications.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:28 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/update_last_activity.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:31 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/update_last_activity.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:31 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_all_notifications.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:31 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_user.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:33 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_user.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:33 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_user_chat_history.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:33 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/update_last_activity.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:33 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_all_notifications.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:37 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_user.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:37 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_all_notifications.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:37 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/update_last_activity.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:38 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_all_notifications.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:38 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/update_last_activity.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:38 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_user.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:38 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_user_chat_history.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:41 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/update_last_activity.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:41 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_all_notifications.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:51:41 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home1/anthorc3/public_html/connect/connect.php:3
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(3): PDO->__construct('mysql:host=loca...', 'root', 'admin123', Array)
+#1 /home1/anthorc3/public_html/connect/fetch_user.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 3
+[13-Mar-2020 15:18:59 America/Los_Angeles] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/anthorc3/public_html/connect/modals.php:28) in /home1/anthorc3/public_html/connect/message_center.php on line 5
+[13-Mar-2020 15:49:33 America/Los_Angeles] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/anthorc3/public_html/connect/modals.php:28) in /home1/anthorc3/public_html/connect/message_center.php on line 5
+[13-Mar-2020 15:49:44 America/Los_Angeles] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/anthorc3/public_html/connect/modals.php:28) in /home1/anthorc3/public_html/connect/message_center.php on line 5
+[14-Mar-2020 08:32:04 America/Los_Angeles] PHP Warning:  Use of undefined constant att - assumed 'att' (this will throw an Error in a future version of PHP) in /home1/anthorc3/public_html/connect/login.php on line 50
+[14-Mar-2020 08:37:10 America/Los_Angeles] PHP Warning:  Use of undefined constant att - assumed 'att' (this will throw an Error in a future version of PHP) in /home1/anthorc3/public_html/connect/login.php on line 50
+[14-Mar-2020 08:37:41 America/Los_Angeles] PHP Warning:  Use of undefined constant att - assumed 'att' (this will throw an Error in a future version of PHP) in /home1/anthorc3/public_html/connect/login.php on line 50
+[14-Mar-2020 08:38:05 America/Los_Angeles] PHP Warning:  Use of undefined constant att - assumed 'att' (this will throw an Error in a future version of PHP) in /home1/anthorc3/public_html/connect/login.php on line 117
+[14-Mar-2020 08:38:37 America/Los_Angeles] PHP Warning:  Use of undefined constant att - assumed 'att' (this will throw an Error in a future version of PHP) in /home1/anthorc3/public_html/connect/login.php on line 50
+[14-Mar-2020 08:38:57 America/Los_Angeles] PHP Warning:  Use of undefined constant att - assumed 'att' (this will throw an Error in a future version of PHP) in /home1/anthorc3/public_html/connect/login.php on line 50
+[14-Mar-2020 08:43:50 America/Los_Angeles] PHP Warning:  Use of undefined constant att - assumed 'att' (this will throw an Error in a future version of PHP) in /home1/anthorc3/public_html/connect/login.php on line 49
+[14-Mar-2020 08:49:32 America/Los_Angeles] PHP Warning:  Use of undefined constant att - assumed 'att' (this will throw an Error in a future version of PHP) in /home1/anthorc3/public_html/connect/login.php on line 49
+[14-Mar-2020 08:50:53 America/Los_Angeles] PHP Warning:  Use of undefined constant att - assumed 'att' (this will throw an Error in a future version of PHP) in /home1/anthorc3/public_html/connect/login.php on line 49
+[14-Mar-2020 08:58:14 America/Los_Angeles] PHP Warning:  Use of undefined constant att - assumed 'att' (this will throw an Error in a future version of PHP) in /home1/anthorc3/public_html/connect/login.php on line 40
+[14-Mar-2020 08:58:50 America/Los_Angeles] PHP Warning:  Use of undefined constant att - assumed 'att' (this will throw an Error in a future version of PHP) in /home1/anthorc3/public_html/connect/login.php on line 40
+[14-Mar-2020 09:00:45 America/Los_Angeles] PHP Warning:  Use of undefined constant att - assumed 'att' (this will throw an Error in a future version of PHP) in /home1/anthorc3/public_html/connect/login.php on line 40
+[14-Mar-2020 09:04:00 America/Los_Angeles] PHP Warning:  Use of undefined constant att - assumed 'att' (this will throw an Error in a future version of PHP) in /home1/anthorc3/public_html/connect/login.php on line 40
+[14-Mar-2020 09:04:23 America/Los_Angeles] PHP Warning:  Use of undefined constant att - assumed 'att' (this will throw an Error in a future version of PHP) in /home1/anthorc3/public_html/connect/login.php on line 108
+[14-Mar-2020 09:04:43 America/Los_Angeles] PHP Warning:  Use of undefined constant att - assumed 'att' (this will throw an Error in a future version of PHP) in /home1/anthorc3/public_html/connect/login.php on line 108
+[14-Mar-2020 09:04:55 America/Los_Angeles] PHP Warning:  Use of undefined constant att - assumed 'att' (this will throw an Error in a future version of PHP) in /home1/anthorc3/public_html/connect/login.php on line 40
+[14-Mar-2020 09:07:51 America/Los_Angeles] PHP Warning:  Use of undefined constant att - assumed 'att' (this will throw an Error in a future version of PHP) in /home1/anthorc3/public_html/connect/login.php on line 40
+[14-Mar-2020 09:13:29 America/Los_Angeles] PHP Warning:  Use of undefined constant att - assumed 'att' (this will throw an Error in a future version of PHP) in /home1/anthorc3/public_html/connect/login.php on line 40
+[14-Mar-2020 12:00:42 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home1/anthorc3/public_html/connect/connect.php:2
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(2): PDO->__construct('mysql:host=loca...', 'anthorc3', 'Coolio647!')
+#1 /home1/anthorc3/public_html/connect/fetch_all_notifications.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 2
+[14-Mar-2020 12:00:47 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home1/anthorc3/public_html/connect/connect.php:2
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(2): PDO->__construct('mysql:host=loca...', 'anthorc3', 'Coolio647!')
+#1 /home1/anthorc3/public_html/connect/update_last_activity.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 2
+[14-Mar-2020 12:00:52 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home1/anthorc3/public_html/connect/connect.php:2
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(2): PDO->__construct('mysql:host=loca...', 'anthorc3', 'Coolio647!')
+#1 /home1/anthorc3/public_html/connect/fetch_all_notifications.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 2
+[14-Mar-2020 12:01:03 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home1/anthorc3/public_html/connect/connect.php:2
+Stack trace:
+#0 /home1/anthorc3/public_html/connect/connect.php(2): PDO->__construct('mysql:host=loca...', 'anthorc3', 'Coolio647!')
+#1 /home1/anthorc3/public_html/connect/fetch_user.php(5): include('/home1/anthorc3...')
+#2 {main}
+  thrown in /home1/anthorc3/public_html/connect/connect.php on line 2
+[14-Mar-2020 11:34:16 America/Los_Angeles] PHP Warning:  Use of undefined constant att - assumed 'att' (this will throw an Error in a future version of PHP) in /home1/anthorc3/public_html/connect/login.php on line 40
+[14-Mar-2020 11:35:54 America/Los_Angeles] PHP Warning:  Use of undefined constant att - assumed 'att' (this will throw an Error in a future version of PHP) in /home1/anthorc3/public_html/connect/login.php on line 40
+[14-Mar-2020 11:36:14 America/Los_Angeles] PHP Warning:  Use of undefined constant att - assumed 'att' (this will throw an Error in a future version of PHP) in /home1/anthorc3/public_html/connect/login.php on line 108
+[14-Mar-2020 12:32:35 America/Los_Angeles] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/anthorc3/public_html/connect/modals.php:28) in /home1/anthorc3/public_html/connect/message_center.php on line 5
+[14-Mar-2020 12:32:38 America/Los_Angeles] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/anthorc3/public_html/connect/modals.php:28) in /home1/anthorc3/public_html/connect/message_center.php on line 5
+[14-Mar-2020 12:32:41 America/Los_Angeles] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/anthorc3/public_html/connect/modals.php:28) in /home1/anthorc3/public_html/connect/message_center.php on line 5
+[14-Mar-2020 12:35:33 America/Los_Angeles] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/anthorc3/public_html/connect/modals.php:28) in /home1/anthorc3/public_html/connect/message_center.php on line 5
+[14-Mar-2020 12:35:43 America/Los_Angeles] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/anthorc3/public_html/connect/modals.php:28) in /home1/anthorc3/public_html/connect/message_center.php on line 5
+[14-Mar-2020 12:38:41 America/Los_Angeles] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/anthorc3/public_html/connect/modals.php:28) in /home1/anthorc3/public_html/connect/message_center.php on line 5
+[14-Mar-2020 17:21:53 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home1/anthorc3/public_html/connect/dashboard.php on line 183
+[14-Mar-2020 17:22:18 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home1/anthorc3/public_html/connect/dashboard.php on line 183
+[14-Mar-2020 17:28:45 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home1/anthorc3/public_html/connect/dashboard.php on line 183
+[14-Mar-2020 17:31:35 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home1/anthorc3/public_html/connect/dashboard.php on line 183
+[14-Mar-2020 17:32:00 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home1/anthorc3/public_html/connect/dashboard.php on line 183
+[14-Mar-2020 17:32:19 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home1/anthorc3/public_html/connect/dashboard.php on line 183
+[14-Mar-2020 17:32:53 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home1/anthorc3/public_html/connect/dashboard.php on line 183
+[14-Mar-2020 18:58:06 America/Boise] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/anthorc3/public_html/connect/connect.php on line 3
+[14-Mar-2020 17:58:06 America/Los_Angeles] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/anthorc3/public_html/connect/connect.php on line 7
