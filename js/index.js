@@ -730,7 +730,6 @@ $(document).ready(function() {
   $('#user_model_details').html(modal_content);
   var canChat = 1;
 
-  //ballz
   $(document).on('keydown', '.chat_message', function(event) {
    if (!canChat) {
     return false;
